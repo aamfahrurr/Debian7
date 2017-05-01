@@ -35,12 +35,6 @@ wget -O /etc/squid/squid.conf "https://raw.githubusercontent.com/aamfahrurr/Debi
 sed -i $MYIP2 /etc/squid/squid.conf;
 service squid restart
 
-# finalisasi
-service ssh restart
-service dropbear restart
-service squid restart
-service webmin restart
-
 # info
 clear
 echo "SILAHKAN REBOOT VPS ANDA !"
